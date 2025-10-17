@@ -24,3 +24,26 @@ Ahora agregar todos los archivos del proyecto:
 Realizar un commit descriptivo de la versión a subir:
 git commit -m "Primera subida"
 
+Enlazar en repositoriode la nube con el local
+git remote add origin https://github.com/esteban1303yt/Curso-React.git
+git push -u origin main
+
+Luego saldrá que debe iniciar sesión con el navegador:
+Inicie sesión con sus credenciales del GitHub.
+Listo actualiza el repositorio de la nube
+
+Comprobar el estado del proyecto:
+git status
+
+(Si aparece en algo en rojo signfica que el archivo es nuevo o se ha modificado).
+
+Comandos para actualizar el repositorio con la versión local:
+git status
+git add .
+git commit -m "Nombre de la versión o descripción del commit"
+git push
+
+Crear ramas:
+git checkout -b nombre_rama
+git switch -c nombre_rama
+git push origin nombre_rama
